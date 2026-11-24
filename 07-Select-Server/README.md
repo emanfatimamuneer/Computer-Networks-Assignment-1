@@ -24,7 +24,7 @@ The Select Server is a TCP server written in C++. It uses the `select()` system 
 The server repeats these steps in a loop so it can continue monitoring
 new and existing connections.
 
-## 6. Compilation and Execution
+## Compilation and Execution
 
 Open a terminal in the `07-Select-Server` directory.
 
@@ -51,7 +51,7 @@ Select Server started on port 5000
 > compiler-specific pragma. The command above explicitly links Winsock
 > using `-lws2_32`.
 
-## 7. Client Testing
+## Client Testing
 
 The server was tested using two separate PowerShell TCP clients
 connected to `127.0.0.1` on port `5000`.
@@ -107,28 +107,28 @@ Hello from Client 2
 Both clients connected to the same running server and received their
 respective echoed messages.
 
-### 8.1 Compilation
+### Compilation
 
 Shows the g++ compilation command and its terminal output.
 
 ![Compilation output](\Screenshots\building.png)
 
-### 8.2 Server Execution
+### Server Execution
 
 Shows the Select Server running on port 5000 and the server-side output
 for both client connections and received messages.
 
-![Select Server execution](\Screenshots\server confirming connection.png)
+![Compilation output](\Screenshots\server-confirming-connection.png)
 
-![Select Server execution](\Screenshots\client 1.png)
+![Compilation output](\Screenshots\client-1.png)
 
-![Select Server execution](\Screenshots\client 2.png)
-### 8.3 Client Testing
+![Compilation output](\Screenshots\client-2.png)
+### Client Testing
 
 Shows the PowerShell client tests and the echoed responses received by
 Client 1 and Client 2.
 
-![Client testing results]( \Screenshots\idle client testing.png)
+![Output]( \Screenshots\idle-client-test.png)
 
 
 
