@@ -111,24 +111,28 @@ respective echoed messages.
 
 Shows the g++ compilation command and its terminal output.
 
-![Compilation output](\Screenshots\building.png)
+![Compilation output](Screenshots/building.png)
 
 ### Server Execution
 
 Shows the Select Server running on port 5000 and the server-side output
 for both client connections and received messages.
 
-![Compilation output](\Screenshots\server-confirming-connection.png)
+![Select Server execution](Screenshots/server-confirming-connection.png)
 
-![Compilation output](\Screenshots\client-1.png)
+### Client 1
 
-![Compilation output](\Screenshots\client-2.png)
+![Client 1 testing](Screenshots/client-1.png)
+
+### Client 2
+
+![Client 2 testing](Screenshots/client-2.png)
 ### Client Testing
 
 Shows the PowerShell client tests and the echoed responses received by
 Client 1 and Client 2.
 
-![Output]( \Screenshots\idle-client-test.png)
+![Output](Screenshots/idle-client-test.png)
 
 
 
